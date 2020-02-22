@@ -1,0 +1,4 @@
+name = "google-analytics"
+type = "webpack"
+account_id = ""
+workers_dev = true
