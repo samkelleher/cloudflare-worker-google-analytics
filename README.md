@@ -21,4 +21,4 @@ of data to Google Analytics transparently.
 
 ## Getting Started
 
-> yarn publish X-1234567
+> yarn publish

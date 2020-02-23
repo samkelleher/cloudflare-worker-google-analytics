@@ -2,11 +2,21 @@
   "name": "cloudflare-worker-google-analytics",
   "version": "1.0.0",
   "description": "A Cloudflare Worker proxy for Google Analytics.",
-  "main": "worker.js",
+  "main": "./src/worker.js",
   "author": "Sam Kelleher <sam@samkelleher.com>",
   "license": "GPL-3.0",
   "private": false,
+  "scripts": {
+    "wrangler": "wrangler",
+    "publish": "wrangler publish"
+  },
   "devDependencies": {
-    "@cloudflare/wrangler": "^1.7.0"
+    "@cloudflare/wrangler": "^1.7.0",
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "accept-language-parser": "^1.5.0",
+    "query-string": "^6.11.0",
+    "uuid": "^3.4.0"
   }
 }
