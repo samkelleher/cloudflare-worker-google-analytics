@@ -22,8 +22,10 @@ of data to Google Analytics transparently.
 ## Getting Started
 
 1. Edit [.env](./.env) file in the directory root, and add your Google Analytics tracking ID and domain name.
-2. Edit [wrangler.yaml](./wrangler.yaml) and add your Cloudflare Account ID.
+2. Edit [wrangler.toml](./wrangler.toml) and add your Cloudflare Account ID.
 3. Optional, run `yarn wrangler config` if you are not already logged in to your Cloudflare Account locally.
 4. Run `yarn deploy` to build and push the worker to your account, where it can then be tested or linked to a zone.s
 
+### 🧑🏼‍💻 Author
 
+Created as a sample worker by [Sam Kelleher](https://samkelleher.com/).
