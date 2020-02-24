@@ -38,7 +38,7 @@ export default async function handleRequest(request, event) {
     const payload = {
         ...params,
         ...getDataFromRequest(request.headers),
-        ...getAccountInfo(params.tid || "X-123456-A")
+        ...getAccountInfo(GA_TRACKING_ID)
     };
 
     // We will wait for the relayed request to complete before responding.
