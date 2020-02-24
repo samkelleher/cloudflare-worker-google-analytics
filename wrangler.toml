@@ -1,4 +1,5 @@
 name = "google-analytics"
 type = "webpack"
-account_id = ""
+account_id = "XXX"
 workers_dev = true
+webpack_config = "./src/webpack.config.js"
