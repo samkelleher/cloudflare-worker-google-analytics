@@ -26,6 +26,6 @@ of data to Google Analytics transparently.
 3. Optional, run `yarn wrangler config` if you are not already logged in to your Cloudflare Account locally.
 4. Run `yarn deploy` to build and push the worker to your account, where it can then be tested or linked to a zone.s
 
-### 🧑🏼‍💻 Author
+## 🧑🏼‍💻 Author
 
 Created as a sample worker by [Sam Kelleher](https://samkelleher.com/).
